@@ -11,6 +11,8 @@ manifest:
     # nice_oled - dongle_display!view - oled Adapter
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
+    - name: petejohanson
+      url-base: https://github.com/petejohanson
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -36,5 +38,9 @@ manifest:
     - name: zmk-oled-adapter
       remote: mctechnology17
       revision: main
+     - name: zmk
+      remote: petejohanson
+      revision: power/domains-and-device-runtime
+      import: app/west.yml
   self:
     path: config
