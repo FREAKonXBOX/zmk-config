@@ -10,10 +10,10 @@ layers:
   - BT 3
   - BT 4
   - BT 5
-  - ''
-  - ''
-  - ''
-  - ''
+  - '&bl BL_DEC'
+  - '&bl BL_INC'
+  - {t: '$$mdi:led-on$$', s: '$$tabler:brightness-up$$', type: sym_by_sym}
+  - {t: '$$mdi:led-outline$$', s: '$$tabler:brightness-down$$', type: sym_by_sym}
   - {t: '$$mdi:led-outline$$', s: '$$mdi:palette$$', type: sym_by_sym}
   - {t: '$$mdi:led-on$$', s: '$$mdi:palette$$', type: sym_by_sym}
   - ''
