@@ -1,8 +1,64 @@
 layout: {qmk_keyboard: lily58_rotated}
 layers:
-  Bas: [Esc, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '`', ↹, Q, W, E, R, T, Y, U, I, O, P, '-', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K,
-    L, ;, '''', '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, '&bl BL_TOG', '&bl BL_CYCLE', N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-option$$',
-    DELETE, Low, ␣, ⏎, Rai, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-command$$']
+  Bas:
+  - '`'
+  - '0'
+  - '9'
+  - '8'
+  - '7'
+  - '6'
+  - '&bl BL_TOG'
+  - {t: '$$mdi:led-on$$', s: '$$mdi:palette$$', type: sym_by_sym}
+  - {t: '$$mdi:led-on$$', h: '$$mdi:page-previous-outline$$', type: tap_dance}
+  - {t: '$$mdi:led-on$$', h: '$$mdi:speedometer$$', type: sym_by_sym}
+  - ''
+  - {t: '$$mdi:led-on$$', h: '$$mdi:toggle-switch$$', s: '$$mdi:led-outline$$', type: toggle}
+  - '-'
+  - P
+  - O
+  - I
+  - U
+  - Y
+  - '&bl BL_INC'
+  - {t: '$$mdi:led-outline$$', s: '$$mdi:palette$$', type: sym_by_sym}
+  - UP ARROW
+  - {t: '$$mdi:led-on$$', h: '$$mdi:speedometer-slow$$', type: sym_by_sym}
+  - ''
+  - {t: '$$mdi:led-outline$$', s: '$$tabler:brightness-down$$', type: sym_by_sym}
+  - ''''
+  - ;
+  - L
+  - K
+  - J
+  - H
+  - '&bl BL_DEC'
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - ''
+  - {t: '$$mdi:led-on$$', s: '$$tabler:brightness-up$$', type: sym_by_sym}
+  - $$mdi:apple-keyboard-shift$$
+  - /
+  - .
+  - ','
+  - M
+  - N
+  - ENTER
+  - '&bl BL_CYCLE'
+  - ''
+  - '&msc SCRL_DOWN'
+  - ''
+  - '&msc SCRL_UP'
+  - ''
+  - $$mdi:apple-keyboard-shift$$
+  - LEFT GUI
+  - DELETE
+  - {t: Bas, type: held}
+  - ␣
+  - ⏎
+  - Low
+  - $$mdi:backspace-outline$$
+  - $$mdi:apple-keyboard-command$$
   Low:
   - BT CLR
   - BT 1
@@ -54,65 +110,6 @@ layers:
   - '3'
   - {t: '$$mdi:led-on$$', h: '$$mdi:speedometer-slow$$', type: sym_by_sym}
   - {t: '$$mdi:led-on$$', h: '$$mdi:speedometer$$', type: sym_by_sym}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  Rai:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - {t: ▽, type: trans}
-  - ←
-  - ↓
-  - ↑
-  - →
-  - {t: ▽, type: trans}
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - KP PLUS
-  - '-'
-  - '='
-  - '['
-  - ']'
-  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
