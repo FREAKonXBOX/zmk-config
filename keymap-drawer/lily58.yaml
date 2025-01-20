@@ -1,6 +1,9 @@
 layout: {qmk_keyboard: lily58_rotated}
 layers:
-  Bas:
+  Bas: [Esc, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '`', ↹, Q, W, E, R, T, Y, U, I, O, P, '-', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K,
+    L, ;, '''', '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, '&bl BL_TOG', '&bl BL_CYCLE', N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-option$$',
+    DELETE, Left_Only, ␣, ⏎, Adjust&Move, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-command$$']
+  Left_Only:
   - '`'
   - '0'
   - '9'
@@ -53,13 +56,13 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - LEFT GUI
   - DELETE
-  - {t: Bas, type: held}
+  - {t: Left_Only, type: held}
   - ␣
   - ⏎
-  - Low
+  - Adjust&Move
   - $$mdi:backspace-outline$$
   - $$mdi:apple-keyboard-command$$
-  Low:
+  Adjust&Move:
   - BT CLR
   - BT 1
   - BT 2
