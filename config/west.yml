@@ -11,7 +11,7 @@ manifest:
     # nice_oled - dongle_display!view - oled Adapter
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
-  - name: carrefinho
+    - name: carrefinho
       url-base: https://github.com/carrefinho1  
   projects:
     - name: zmk
